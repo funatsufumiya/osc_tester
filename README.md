@@ -1,4 +1,4 @@
-# OSC Tester
+# OSC Tester With Python
 
 This is a simple tool to test the OSC communication between a client and a server.
 
