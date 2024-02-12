@@ -12,6 +12,8 @@ This is a simple tool to test the OSC communication between a client and a serve
 
 ### OSC Receiver
 
+(Check `python osc_receiver.py -h` for options)
+
 ```bash
 $ python osc_receiver.py
 # Listening on 127.0.0.1:5005...
@@ -23,6 +25,8 @@ $ python osc_receiver.py
 
 ### OSC Sender
 
+(Check `python osc_sender.py -h` for options)
+
 ```bash
 $ python osc_sender.py /hoge 1 2.0 hoge
 # Sending to 127.0.0.1:5005
@@ -30,6 +34,8 @@ $ python osc_sender.py /hoge 1 2.0 hoge
 ```
 
 ### Sample sender
+
+(Check `python sample_sender.py -h` for options)
 
 ```bash
 $ python sample_sender.py
