@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
   client = udp_client.SimpleUDPClient(args.ip, args.port)
 
-  print(f"Sending to {args.ip}:{args.port} (Ctrl+C to quit)...")
+  print(f"Sending to {args.ip}:{args.port}... (Ctrl+C to quit)")
 
   try:
     while True:

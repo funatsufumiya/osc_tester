@@ -48,5 +48,5 @@ if __name__ == "__main__":
 
   server = osc_server.ThreadingOSCUDPServer(
       (args.ip, args.port), dispatcher)
-  print("Listening on {}".format(server.server_address))
+  print(f"Listening on {args.ip}:{args.port}... (Ctrl+C to quit)")
   server.serve_forever()
